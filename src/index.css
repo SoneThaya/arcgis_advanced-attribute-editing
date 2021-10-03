@@ -1,13 +1,33 @@
-body {
+html,
+body,
+#viewDiv {
+  height: 100%;
+  width: 100%;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#info {
+  padding: 14px;
+  border-radius: 5px;
+  width: 25%;
+}
+
+#update {
+  padding: 6px;
+}
+
+#form {
+  background: #fff;
+}
+
+/* replaces esri-widget--panel */
+
+.esri-button {
+  height: 36px;
+}
+
+.scroller {
+  overflow-x: hidden;
+  overflow-y: auto;
 }
